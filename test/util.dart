@@ -2,6 +2,7 @@ import 'package:flutter/painting.dart';
 
 const red = Color(0xffff0000);
 const redCode = "#ff0000";
+const redCodeAlpha = "#ffff0000";
 const redPurpleRGB = "(255, 0, 0)";
 const redPurpleARGB = "(255, 255, 0, 0)";
 

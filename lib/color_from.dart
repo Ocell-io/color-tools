@@ -3,8 +3,6 @@ import 'dart:math';
 import 'package:color_tools/color_tabels.dart';
 import 'package:flutter/painting.dart';
 
-void foo() {}
-
 extension ColorFrom on Color {
   /// Get color from a int value without alpha
   ///

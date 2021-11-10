@@ -8,7 +8,11 @@ void main() {
     expect(ColorFrom.name("red"), equals(red));
   });
 
-  test('test color from name', () {
+  test('test color from code w alpha', () {
+    expect(ColorFrom.code(redCodeAlpha), equals(red));
+  });
+
+  test('test color from code', () {
     expect(ColorFrom.code(redCode), equals(red));
   });
 
