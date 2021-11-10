@@ -37,5 +37,8 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
       - run: flutter test --coverage
-      - run: lcov --list coverage/lcov.info 
+      - name: coverage
+        uses: romeovs/lcov-reporter-action@v0.2.16
+        with:
+          lcov-file: ./coverage/lcov.info
     
