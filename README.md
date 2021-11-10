@@ -11,6 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 # Color Tools
+![Flutter CI](https://github.com/Ocell-io/color-tools/actions/workflows/main.yml/badge.svg)  
 Color Tools is a library that provies ulitlity functions for the flutter Color class. In comparison to other libaries it tries to avoid adding additonal classes where possible.
 
 ## Features
