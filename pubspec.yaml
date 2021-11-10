@@ -1,6 +1,6 @@
-name: colorful
-description: A new Flutter package project.
-version: 0.0.1
+name: color_tools
+description: Additional color tools for flutter
+version: 0.1.0
 homepage:
 
 environment:

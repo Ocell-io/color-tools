@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:colorful/color_tabels.dart';
+import 'package:color_tools/color_tabels.dart';
 import 'package:flutter/painting.dart';
 
 void foo() {}

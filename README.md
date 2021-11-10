@@ -10,8 +10,8 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
-# colorful
-Colorful is a library that provies ulitlity functions for the flutter Color class. In comparison to other libaries it tries to avoid adding additonal classes where possible.
+# Color Tools
+Color Tools is a library that provies ulitlity functions for the flutter Color class. In comparison to other libaries it tries to avoid adding additonal classes where possible.
 
 ## Features
 
@@ -26,11 +26,11 @@ Colorful is a library that provies ulitlity functions for the flutter Color clas
 
 
 ## Getting started
-Colorful provides options to load colors via ColorFrom and add various extensions to the Color class to make it more user friendly.
+color_tools provides options to load colors via ColorFrom and add various extensions to the Color class to make it more user friendly.
 
 
 ```dart
-import 'package:colorful/colorful.dart';
+import 'package:color_tools/color_tools.dart';
 
 final code = ColorFrom.name('red').toCode();
 assert(code == '#ff0000')
